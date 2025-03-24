@@ -47,8 +47,16 @@ Generated Output: This is a test sentence. In the meantime, I'm going to take a 
 ```
 
 ## Notes
-- If you face CUDA-related issues, ensure you have a compatible NVIDIA driver installed.
-- Remove `num_beams` from `vec2text_model.predict()` to prevent `TypeError`.
+- If you face CUDA-related issues, set the runtime to GPU when using the Google colab environment.
 
-## License
-This project is open-source under the MIT License. Contributions are welcome!
+## Citation
+If you use LCM-torch in your research or projects, please cite the original Large Concept Model paper:
+```
+@article{lcm2024,
+  author = {{LCM team}, Lo\"{i}c Barrault, Paul-Ambroise Duquenne, Maha Elbayad, Artyom Kozhevnikov, Belen Alastruey, Pierre Andrews, Mariano Coria, Guillaume Couairon, Marta R. Costa-juss\`{a}, David Dale, Hady Elsahar, Kevin Heffernan, Jo\~{a}o Maria Janeiro, Tuan Tran, Christophe Ropers, Eduardo Sánchez, Robin San Roman, Alexandre Mourachko, Safiyyah Saleem, Holger Schwenk},
+  title = {{Large Concept Models}: Language Modeling in a Sentence Representation Space},
+  publisher = {arXiv},
+  year = {2024},
+  url = {https://arxiv.org/abs/2412.08821},
+}
+```
