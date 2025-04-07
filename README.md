@@ -48,6 +48,7 @@ Generated Output: This is a test sentence. In the meantime, I'm going to take a 
 
 ## Notes
 - If you face CUDA-related issues, set the runtime to GPU when using the Google colab environment.
+- For learning about LCMs from scratch and exploring a detailed explanation of the code in this repo, please read the article: [Large Concept Models by ProjectPro](https://www.projectpro.io/article/large-concept-models/1114)
 
 ## Citation
 If you use LCM-torch in your research or projects, please cite the original Large Concept Model paper:
